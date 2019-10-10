@@ -530,6 +530,7 @@ export default class VideoWorker {
                     autoplay: self.options.autoplay ? 1 : 0,
                     loop: self.options.loop ? 1 : 0,
                     muted: self.options.mute ? 1 : 0,
+                    background: 1
                 };
 
                 if (self.options.volume) {
